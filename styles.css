@@ -1,0 +1,76 @@
+/* Style the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the banner */
+.banner {
+  background-color: #2196F3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+.banner p {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Style the form */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px grey;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 2px grey;
+}
+
+/* Style the calculate button */
+button {
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2196F3;
+  color: white;
+  box-shadow: 0px 0px 2px grey;
+  cursor: pointer;
+}
+
+/* Style the total price element */
+#total-price {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2196F3;
+}
+
+/* Style the history list */
+#history {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the history list items */
+#history li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px grey;
+}
